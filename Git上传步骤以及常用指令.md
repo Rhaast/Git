@@ -9,3 +9,11 @@
 * 6、最后通过git push origin master的指令，将需要上传的文件上传到Github主分支。
 * 7、将Github上的更改同步到本地文件夹的方式则是通过git pull origin master的指令。（注：若是Github上的内容有所变更，最好是先同步到本地了再执行其他的操作，以免发生冲突）。
 * 8、cd..指令用于返回文件路径的上一步。
+* 9、在一台计算机上才安装git并建立新的工程提交文件时可能会出现"Please tell me who you are. Run" ，这个时候可以看看一下git环境是否配置：
+   ①.git init
+   ②.git config user.name "someone"
+   ③.git config user.email "someone@someplace.com"
+   ④.git add *
+   ⑤.git commit -m "some init msg"。
+   
+   特别注意2、3条的顺序。
