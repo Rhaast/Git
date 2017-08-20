@@ -17,3 +17,4 @@
    ⑤.git commit -m "some init msg"。
    
    特别注意2、3条的顺序。
+* 10、其他相关指令链接http://www.cnblogs.com/springbarley/archive/2012/11/03/2752984.html
