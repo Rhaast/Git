@@ -18,3 +18,11 @@
    
    特别注意2、3条的顺序。
 * 10、其他相关指令链接http://www.cnblogs.com/springbarley/archive/2012/11/03/2752984.html
+* 11、利用node.js+git安装atom插件：
+①.下载并安装node.js
+②.在git里使用命令行打开C:\Users\Easpada\.atom\packages>即插件所在的根目录。
+③.将插件在github上的源码git clone 到插件所在的根目录。
+④.打开插件路径C:\Users\Easpada\.atom\packages>linter并使用npm install指令对插件进行安装。
+⑤.安装成功后插件的目录下面会出现一个node_modules文件夹。
+⑥.通过C:\Users\Easpada\.atom\packages\linter>dir指令可查看当前插件的目录。
+
